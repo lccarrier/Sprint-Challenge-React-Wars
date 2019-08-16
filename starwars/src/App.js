@@ -44,7 +44,7 @@ const App = () => {
       <StyledContain>
         {data.map(Jedi)}
       </StyledContain>
-      <StyledName>Built by <a href="https://github.com/lccarrier">LC Carrier</a></StyledName>
+      <StyledName>Built by <A href="https://github.com/lccarrier">LC Carrier</A> </StyledName>
     </StyledPage>
   )
 }
@@ -100,5 +100,9 @@ const StyledName = styled.p`
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   margin: 15px 0px 15px 5px;
+`
+
+const A = styled.a`
+  :visited {color:#00adbf;}
 `
 

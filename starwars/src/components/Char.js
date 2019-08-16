@@ -10,9 +10,8 @@ export default function Yolo(props) {
   );
 }
 
-
 // Styling with styled components
-const StyledH = styled.div`
+const StyledH = styled.h1`
     font-size: 16px;
     line-height: 24px;
     margin: 5px 0px;
@@ -23,7 +22,7 @@ const StyledH = styled.div`
     color: #222b34;
 `
 
-const StyledP = styled.div`
+const StyledP = styled.p`
     margin-bottom: 10px;
     font-family: system-ui;
     font-size: 14px;
@@ -40,11 +39,9 @@ const StyledChar = styled.div`
     -moz-osx-font-smoothing: grayscale;
     background-color: white; 
 
-    :nth-last-child() {
-        display: none;
+    :nth-child(10) {
+        border-bottom: 1px solid transparent;
     }
-
-    
 `
 
 
